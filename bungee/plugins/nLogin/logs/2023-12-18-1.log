@@ -1,0 +1,39 @@
+[12/18/2023 23:43:39]:           __             _       
+[12/18/2023 23:43:39]:   _ __   / /  ___   __ _(_)_ __  
+[12/18/2023 23:43:39]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[12/18/2023 23:43:39]:  | | | / /__| (_) | (_| | | | | |
+[12/18/2023 23:43:39]:  |_| |_\____/\___/ \__, |_|_| |_|
+[12/18/2023 23:43:39]:                   |___/            
+[12/18/2023 23:43:39]:  By: www.nickuc.com - V 10.2.39 DEVELOPMENT
+[12/18/2023 23:43:39]:  
+[12/18/2023 23:43:40]: [nLogin] [DEBUG] The config.yml file was created successfully.
+[12/18/2023 23:43:49]: [nLogin] [DEBUG] All settings were loaded in 8401 ms.
+[12/18/2023 23:43:50]: [nLogin] [DEBUG] Loading the messages_en.yml message file...
+[12/18/2023 23:43:50]: [nLogin] [DEBUG] All plugin messages were loaded in 799 ms (languageByClient=false).
+[12/18/2023 23:43:50]: [nLogin] [DEBUG] All proxy settings were loaded in 103 ms.
+[12/18/2023 23:43:50]: [nLogin] [DEBUG] Loading database...
+[12/18/2023 23:43:51]: [nLogin] Generating RSA keypair... (this may take a while)
+[12/18/2023 23:43:55]: [nLogin] The RSA key pair was successfully generated. Took 4.70s
+[12/18/2023 23:43:56]: [nLogin] [DEBUG] Starting logger filter...
+[12/18/2023 23:44:01]: [nLogin] 
+[12/18/2023 23:44:01]: [nLogin]  Thank you so much for choosing nLogin! <3
+[12/18/2023 23:44:01]: [nLogin] 
+[12/18/2023 23:44:01]: [nLogin]  For your safety, please read the message below:
+[12/18/2023 23:44:01]: [nLogin]   Never download nLogin from unknown sources.
+[12/18/2023 23:44:01]: [nLogin]   A modified version may contain malicious software.
+[12/18/2023 23:44:01]: [nLogin] 
+[12/18/2023 23:44:01]: [nLogin]  Trusted sources:
+[12/18/2023 23:44:01]: [nLogin]   www.nickuc.com
+[12/18/2023 23:44:01]: [nLogin]   www.github.com/nickuc
+[12/18/2023 23:44:01]: [nLogin]   OpeNLogin installer (from Spigot or GitHub)
+[12/18/2023 23:44:01]: [nLogin] 
+[12/18/2023 23:44:01]: [nLogin]  Official support channels:
+[12/18/2023 23:44:01]: [nLogin]   Discord group: www.nickuc.com/discord
+[12/18/2023 23:44:01]: [nLogin]   Documentation: docs.nickuc.com/nlogin/
+[12/18/2023 23:44:01]: [nLogin]   Email: support@nickuc.com
+[12/18/2023 23:44:01]: [nLogin]   YouTube: youtube.com/nickuc
+[12/18/2023 23:44:01]: [nLogin] 
+[12/18/2023 23:44:01]: [nLogin]  To remove this warning, log in with "nlogin.admin" permission on the server
+[12/18/2023 23:44:01]: [nLogin]  and click the "Setup plugin" button to configure your plugin.
+[12/18/2023 23:44:01]: [nLogin] 
+[12/18/2023 23:45:55]: [nLogin] Successful plugin core shutdown (took 0.00s)

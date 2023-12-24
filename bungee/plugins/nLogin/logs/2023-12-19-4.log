@@ -1,0 +1,35 @@
+[12/19/2023 21:43:29]:           __             _       
+[12/19/2023 21:43:29]:   _ __   / /  ___   __ _(_)_ __  
+[12/19/2023 21:43:29]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[12/19/2023 21:43:29]:  | | | / /__| (_) | (_| | | | | |
+[12/19/2023 21:43:29]:  |_| |_\____/\___/ \__, |_|_| |_|
+[12/19/2023 21:43:29]:                   |___/            
+[12/19/2023 21:43:29]:  By: www.nickuc.com - V 10.2.39 DEVELOPMENT
+[12/19/2023 21:43:29]:  
+[12/19/2023 21:43:31]: [nLogin] [DEBUG] All settings were loaded in 2006 ms.
+[12/19/2023 21:43:32]: [nLogin] [DEBUG] Loading the messages_en.yml message file...
+[12/19/2023 21:43:33]: [nLogin] [DEBUG] All plugin messages were loaded in 1110 ms (languageByClient=false).
+[12/19/2023 21:43:33]: [nLogin] [DEBUG] All proxy settings were loaded in 133 ms.
+[12/19/2023 21:43:33]: [nLogin] [DEBUG] Loading database...
+[12/19/2023 21:43:35]: [nLogin] [DEBUG] Starting logger filter...
+[12/19/2023 21:43:41]: [nLogin] 
+[12/19/2023 21:43:41]: [nLogin]  Thank you so much for choosing nLogin! <3
+[12/19/2023 21:43:41]: [nLogin] 
+[12/19/2023 21:43:41]: [nLogin]  For your safety, please read the message below:
+[12/19/2023 21:43:41]: [nLogin]   Never download nLogin from unknown sources.
+[12/19/2023 21:43:41]: [nLogin]   A modified version may contain malicious software.
+[12/19/2023 21:43:41]: [nLogin] 
+[12/19/2023 21:43:41]: [nLogin]  Trusted sources:
+[12/19/2023 21:43:41]: [nLogin]   www.nickuc.com
+[12/19/2023 21:43:41]: [nLogin]   www.github.com/nickuc
+[12/19/2023 21:43:41]: [nLogin]   OpeNLogin installer (from Spigot or GitHub)
+[12/19/2023 21:43:41]: [nLogin] 
+[12/19/2023 21:43:41]: [nLogin]  Official support channels:
+[12/19/2023 21:43:41]: [nLogin]   Discord group: www.nickuc.com/discord
+[12/19/2023 21:43:41]: [nLogin]   Documentation: docs.nickuc.com/nlogin/
+[12/19/2023 21:43:41]: [nLogin]   Email: support@nickuc.com
+[12/19/2023 21:43:41]: [nLogin]   YouTube: youtube.com/nickuc
+[12/19/2023 21:43:41]: [nLogin] 
+[12/19/2023 21:43:41]: [nLogin]  To remove this warning, log in with "nlogin.admin" permission on the server
+[12/19/2023 21:43:41]: [nLogin]  and click the "Setup plugin" button to configure your plugin.
+[12/19/2023 21:43:41]: [nLogin] 

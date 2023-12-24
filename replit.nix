@@ -1,5 +1,7 @@
 { pkgs }: {
     deps = [
+      pkgs.systemdMinimal
+      pkgs.qtile
         pkgs.bashInteractive
         pkgs.man
         pkgs.jq

@@ -1,0 +1,36 @@
+[12/19/2023 13:24:50]:           __             _       
+[12/19/2023 13:24:51]:   _ __   / /  ___   __ _(_)_ __  
+[12/19/2023 13:24:51]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[12/19/2023 13:24:51]:  | | | / /__| (_) | (_| | | | | |
+[12/19/2023 13:24:51]:  |_| |_\____/\___/ \__, |_|_| |_|
+[12/19/2023 13:24:51]:                   |___/            
+[12/19/2023 13:24:51]:  By: www.nickuc.com - V 10.2.39 DEVELOPMENT
+[12/19/2023 13:24:51]:  
+[12/19/2023 13:24:53]: [nLogin] [DEBUG] All settings were loaded in 1531 ms.
+[12/19/2023 13:24:54]: [nLogin] [DEBUG] Loading the messages_en.yml message file...
+[12/19/2023 13:24:54]: [nLogin] [DEBUG] All plugin messages were loaded in 505 ms (languageByClient=false).
+[12/19/2023 13:24:54]: [nLogin] [DEBUG] All proxy settings were loaded in 51 ms.
+[12/19/2023 13:24:54]: [nLogin] [DEBUG] Loading database...
+[12/19/2023 13:24:56]: [nLogin] [DEBUG] Starting logger filter...
+[12/19/2023 13:25:02]: [nLogin] 
+[12/19/2023 13:25:02]: [nLogin]  Thank you so much for choosing nLogin! <3
+[12/19/2023 13:25:02]: [nLogin] 
+[12/19/2023 13:25:02]: [nLogin]  For your safety, please read the message below:
+[12/19/2023 13:25:02]: [nLogin]   Never download nLogin from unknown sources.
+[12/19/2023 13:25:02]: [nLogin]   A modified version may contain malicious software.
+[12/19/2023 13:25:02]: [nLogin] 
+[12/19/2023 13:25:02]: [nLogin]  Trusted sources:
+[12/19/2023 13:25:02]: [nLogin]   www.nickuc.com
+[12/19/2023 13:25:02]: [nLogin]   www.github.com/nickuc
+[12/19/2023 13:25:03]: [nLogin]   OpeNLogin installer (from Spigot or GitHub)
+[12/19/2023 13:25:03]: [nLogin] 
+[12/19/2023 13:25:03]: [nLogin]  Official support channels:
+[12/19/2023 13:25:03]: [nLogin]   Discord group: www.nickuc.com/discord
+[12/19/2023 13:25:03]: [nLogin]   Documentation: docs.nickuc.com/nlogin/
+[12/19/2023 13:25:03]: [nLogin]   Email: support@nickuc.com
+[12/19/2023 13:25:03]: [nLogin]   YouTube: youtube.com/nickuc
+[12/19/2023 13:25:03]: [nLogin] 
+[12/19/2023 13:25:03]: [nLogin]  To remove this warning, log in with "nlogin.admin" permission on the server
+[12/19/2023 13:25:03]: [nLogin]  and click the "Setup plugin" button to configure your plugin.
+[12/19/2023 13:25:03]: [nLogin] 
+[12/19/2023 13:27:03]: [nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_login`, `email`, `discord`, `settings`) VALUES ('NotJunar', null, null, null, null, '127.0.0.1', '1970-01-01 00:00:00.0', '1970-01-01 00:00:00.0', null, null, '{"settings":[{"value":"lobby","key":"last-server"}],"version":0}')"

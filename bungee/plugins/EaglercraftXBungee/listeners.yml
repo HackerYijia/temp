@@ -10,7 +10,8 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - '&f「」&9&lJunar&aMC &r〈〉 &3Modded Experience'
+  - '&3&k|&r〈〉Bosses, Vehicles, Items, Events, Pets. &3&k|&r'
   allow_motd: true
   allow_query: true
   request_motd_cache:

@@ -1,0 +1,159 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGBUS (0x7) at pc=0x00007f4e04668044, pid=319, tid=0x00007f4d8dcfc640
+#
+# JRE version: OpenJDK Runtime Environment (8.0_322) (build 1.8.0_322-ga)
+# Java VM: OpenJDK 64-Bit Server VM (25.322-bga mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# V  [libjvm.so+0x93d044]  address_to_library_name_callback(dl_phdr_info*, unsigned long, void*)+0x54
+#
+# Core dump written. Default location: /home/runner/junarmc/bungee/core or core.319
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f4d9000c800):  JavaThread "EaglercraftXBungee Pool Thread #109" [_thread_in_vm, id=11419, stack(0x00007f4d8dbfd000,0x00007f4d8dcfd000)]
+
+siginfo: si_signo: 7 (SIGBUS), si_code: 2 (BUS_ADRERR), si_addr: 0x00007f4e00000040
+
+Registers:
+RAX=0x00007f4e00000078, RBX=0x00007f4e00000000, RCX=0x0000000000000046, RDX=0x00007f4e00000040
+RSP=0x00007f4d8dcf8dd0, RBP=0x00007f4d8dcf8de0, RSI=0x00007f4e000002a8, RDI=0x0000000000000000
+R8 =0x00007f4de6606810, R9 =0x00007f4d8dcf8e00, R10=0x00007f4d8dcf8eb0, R11=0x0000000000000000
+R12=0x0000000000000001, R13=0x0000000000000000, R14=0x0000000000000000, R15=0x0000000000000000
+RIP=0x00007f4e04668044, EFLAGS=0x0000000000010212, CSGSFS=0x002b000000000033, ERR=0x0000000000000004
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007f4d8dcf8dd0)
+0x00007f4d8dcf8dd0:   00007f4dfc6a01b0 00007f4d8dcf8e00
+0x00007f4d8dcf8de0:   0000000000000066 00007f4e07281b74
+0x00007f4d8dcf8df0:   00007f4e04667ff0 00007f4d8dcf8eb0
+0x00007f4d8dcf8e00:   00007f4e00000000 00007f4dfc6a39c0
+0x00007f4d8dcf8e10:   00007f4e00000040 00007f4de65c000b
+0x00007f4d8dcf8e20:   0000000000000066 0000000000000000
+0x00007f4d8dcf8e30:   0000000000000000 0000000000000000
+0x00007f4d8dcf8e40:   00000000e54a9c38 64403b9e3c811900
+0x00007f4d8dcf8e50:   00000000ffffffff 00007f4de6606810
+0x00007f4d8dcf8e60:   00007f4d8dcf8ef0 00007f4d8dcf8f1c
+0x00007f4d8dcf8e70:   00007f4d8dcf8f90 0000000000001001
+0x00007f4d8dcf8e80:   0000000000000005 00007f4e0466b38f
+0x00007f4d8dcf8e90:   00000000e4a190a8 0000018ce6576f58
+0x00007f4d8dcf8ea0:   0000000000000002 00007f4d00001900
+0x00007f4d8dcf8eb0:   00007f4de6606810 0000000000001001
+0x00007f4d8dcf8ec0:   00007f4d8dcf8f90 0000000000000000
+0x00007f4d8dcf8ed0:   00007f4d8dcfa020 00007f4e0487cdf4
+0x00007f4d8dcf8ee0:   00007f4d9000d300 00007f4d8dcf8f90
+0x00007f4d8dcf8ef0:   00007f4d8dcf9fd0 00007f4e0462aae8
+0x00007f4d8dcf8f00:   00007f4d8ee908a8 000000018dcf8f60
+0x00007f4d8dcf8f10:   00007f4d8ee92210 00007f4e0473773c
+0x00007f4d8dcf8f20:   0000000000000000 00000001000497d8
+0x00007f4d8dcf8f30:   00007f4e007eaa68 0000561ad1f9a000
+0x00007f4d8dcf8f40:   00007f4e007e0460 00007f4e04354561
+0x00007f4d8dcf8f50:   00007f4d8dcf8fa0 0000000200000001
+0x00007f4d8dcf8f60:   00007f4e007eaa68 00007f4e00510b10
+0x00007f4d8dcf8f70:   00007f4e00514c70 00007f4e0050f400
+0x00007f4d8dcf8f80:   00007f4d9000c800 00000001000227b8
+0x00007f4d8dcf8f90:   0000000100009e90 00007f4d8dcf9070
+0x00007f4d8dcf8fa0:   00007f4d8dcf9020 00007f4e04531be9
+0x00007f4d8dcf8fb0:   00007f4d8dcf9320 00007f4e00510b10
+0x00007f4d8dcf8fc0:   00007f4d8dcf9010 00007f4e0453579c 
+
+Instructions: (pc=0x00007f4e04668044)
+0x00007f4e04668024:   48 8d 42 38 41 bc 01 00 00 00 48 8d 34 c8 eb 10
+0x00007f4e04668034:   0f 1f 40 00 48 89 c2 48 39 c6 74 38 48 83 c0 38
+0x00007f4e04668044:   83 3a 01 48 8b 4a 10 75 eb 48 01 d9 48 85 ff 74
+0x00007f4e04668054:   4b 48 39 f9 72 46 4d 8b 02 49 39 c8 72 d6 48 03 
+
+Register to memory mapping:
+
+RAX=
+[error occurred during error reporting (printing register info), id 0x7]
+
+Stack: [0x00007f4d8dbfd000,0x00007f4d8dcfd000],  sp=0x00007f4d8dcf8dd0,  free space=1007k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x93d044]  address_to_library_name_callback(dl_phdr_info*, unsigned long, void*)+0x54
+C  [libc.so.6+0x156b74]  dl_iterate_phdr+0x194
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  io.netty.channel.epoll.Native.eventFdWrite(IJ)V+0
+J 5189 C1 io.netty.channel.epoll.EpollEventLoop.wakeup(Z)V (33 bytes) @ 0x00007f4dedc8572c [0x00007f4dedc854c0+0x26c]
+J 4273 C1 io.netty.util.concurrent.SingleThreadEventExecutor.execute(Ljava/lang/Runnable;Z)V (69 bytes) @ 0x00007f4ded90d794 [0x00007f4ded90cac0+0xcd4]
+J 4855 C1 io.netty.util.concurrent.SingleThreadEventExecutor.execute(Ljava/lang/Runnable;)V (6 bytes) @ 0x00007f4ded85a6b4 [0x00007f4ded85a340+0x374]
+J 4499 C1 io.netty.channel.AbstractChannelHandlerContext.safeExecute(Lio/netty/util/concurrent/EventExecutor;Ljava/lang/Runnable;Lio/netty/channel/ChannelPromise;Ljava/lang/Object;Z)Z (71 bytes) @ 0x00007f4dedb23894 [0x00007f4dedb23640+0x254]
+J 4199 C2 io.netty.channel.AbstractChannelHandlerContext.write(Ljava/lang/Object;ZLio/netty/channel/ChannelPromise;)V (146 bytes) @ 0x00007f4deda7d7d8 [0x00007f4deda7cfa0+0x838]
+J 6166 C2 io.netty.channel.AbstractChannel.writeAndFlush(Ljava/lang/Object;Lio/netty/channel/ChannelPromise;)Lio/netty/channel/ChannelFuture; (10 bytes) @ 0x00007f4ded8aebb0 [0x00007f4ded8aeb60+0x50]
+J 5903 C1 net.md_5.bungee.netty.ChannelWrapper.write(Ljava/lang/Object;)V (72 bytes) @ 0x00007f4deddd739c [0x00007f4deddd6ce0+0x6bc]
+J 4341 C1 net.md_5.bungee.UserConnection$1.sendPacket(Lnet/md_5/bungee/protocol/DefinedPacket;)V (12 bytes) @ 0x00007f4ded95e3d4 [0x00007f4ded95e2c0+0x114]
+j  net.md_5.bungee.UserConnection.sendData(Ljava/lang/String;[B)V+20
+j  net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.skins.SkinService.processGetOtherSkin(Ljava/util/UUID;Lnet/md_5/bungee/UserConnection;)V+959
+j  net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.skins.SkinPackets.processGetOtherSkin([BLnet/md_5/bungee/UserConnection;Lnet/lax1dude/eaglercraft/v1_8/plugin/gateway_bungeecord/skins/ISkinService;)V+46
+j  net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.skins.SkinPackets.processPacket([BLnet/md_5/bungee/UserConnection;Lnet/lax1dude/eaglercraft/v1_8/plugin/gateway_bungeecord/skins/ISkinService;)V+59
+j  net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.handlers.EaglerPacketEventListener$1.run()V+21
+j  net.md_5.bungee.scheduler.BungeeTask.run()V+40
+j  java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V+95
+j  java.util.concurrent.ThreadPoolExecutor$Worker.run()V+5
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+=>0x00007f4d9000c800 JavaThread "EaglercraftXBungee Pool Thread #109" [_thread_in_vm, id=11419, stack(0x00007f4d8dbfd000,0x00007f4d8dcfd000)]
+  0x00007f4d9000b800 JavaThread "EaglercraftXBungee Pool Thread #108" [_thread_blocked, id=11418, stack(0x00007f4d8dcfd000,0x00007f4d8ddfd000)]
+  0x00007f4d9000a000 JavaThread "EaglercraftXBungee Pool Thread #107" [_thread_blocked, id=11417, stack(0x00007f4d8ddfd000,0x00007f4d8defd000)]
+  0x00007f4d90008800 JavaThread "EaglercraftXBungee Pool Thread #106" [_thread_blocked, id=11416, stack(0x00007f4d8e3fd000,0x00007f4d8e4fd000)]
+  0x00007f4d90007800 JavaThread "EaglercraftXBungee Pool Thread #105" [_thread_blocked, id=11415, stack(0x00007f4d8dafd000,0x00007f4d8dbfd000)]
+  0x00007f4d90006800 JavaThread "EaglercraftXBungee Pool Thread #104" [_thread_blocked, id=11414, stack(0x00007f4d8defd000,0x00007f4d8dffd000)]
+  0x00007f4d90006000 JavaThread "EaglercraftXBungee Pool Thread #103" [_thread_blocked, id=11413, stack(0x00007f4d8dffd000,0x00007f4d8e0fd000)]
+  0x00007f4d90005000 JavaThread "EaglercraftXBungee Pool Thread #102" [_thread_blocked, id=11412, stack(0x00007f4d8e7fd000,0x00007f4d8e8fd000)]
+  0x00007f4d90004800 JavaThread "EaglercraftXBungee Pool Thread #101" [_thread_blocked, id=11411, stack(0x00007f4d8e8fd000,0x00007f4d8e9fd000)]
+  0x00007f4d90056000 JavaThread "EaglercraftXBungee Pool Thread #100" [_thread_blocked, id=11410, stack(0x00007f4d8e1fd000,0x00007f4d8e2fd000)]
+  0x00007f4d90055000 JavaThread "EaglercraftXBungee Pool Thread #99" [_thread_blocked, id=11409, stack(0x00007f4d8e0fd000,0x00007f4d8e1fd000)]
+  0x00007f4d90052800 JavaThread "EaglercraftXBungee Pool Thread #98" [_thread_blocked, id=11408, stack(0x00007f4d8e2fd000,0x00007f4d8e3fd000)]
+  0x00007f4d9405b800 JavaThread "EaglercraftXBungee Pool Thread #97" [_thread_blocked, id=11407, stack(0x00007f4d8ecfd000,0x00007f4d8edfd000)]
+  0x00007f4dbc020000 JavaThread "Skin Download Thread #5" [_thread_blocked, id=1477, stack(0x00007f4d8e6fd000,0x00007f4d8e7fd000)]
+  0x00007f4da8138800 JavaThread "Skin Download Thread #4" [_thread_in_native, id=1384, stack(0x00007f4d8e9fd000,0x00007f4d8eafd000)]
+  0x00007f4d98020000 JavaThread "Skin Download Thread #3" [_thread_in_native, id=1069, stack(0x00007f4d8eafd000,0x00007f4d8ebfd000)]
+  0x00007f4d9801e800 JavaThread "Skin Download Thread #2" [_thread_in_native, id=1068, stack(0x00007f4d8ebfd000,0x00007f4d8ecfd000)]
+  0x00007f4da4009000 JavaThread "Netty Worker IO Thread #5" [_thread_in_native, id=684, stack(0x00007f4d8effd000,0x00007f4d8f0fd000)]
+  0x00007f4da4007800 JavaThread "Netty Worker IO Thread #4" [_thread_blocked, id=629, stack(0x00007f4d8f4fe000,0x00007f4d8f5fe000)]
+  0x00007f4da4005800 JavaThread "Netty Worker IO Thread #3" [_thread_in_native, id=616, stack(0x00007f4de40ff000,0x00007f4de41ff000)]
+  0x00007f4da4004000 JavaThread "Netty Worker IO Thread #2" [_thread_blocked, id=525, stack(0x00007f4de41ff000,0x00007f4de42ff000)]
+  0x00007f4da4002000 JavaThread "Netty Worker IO Thread #1" [_thread_blocked, id=391, stack(0x00007f4de4700000,0x00007f4de4800000)]
+  0x00007f4dfc9e9000 JavaThread "Netty Boss IO Thread #0" [_thread_in_native, id=390, stack(0x00007f4de4800000,0x00007f4de4900000)]
+  0x00007f4dfc9e6800 JavaThread "EaglerXBungee: Skin Service Tasks" [_thread_blocked, id=389, stack(0x00007f4de4900000,0x00007f4de4a00000)]
+  0x00007f4dfc945800 JavaThread "mysql-cj-abandoned-connection-cleanup" daemon [_thread_blocked, id=388, stack(0x00007f4de4f91000,0x00007f4de5091000)]
+  0x00007f4dfc91b000 JavaThread "Netty Worker IO Thread #0" [_thread_blocked, id=387, stack(0x00007f4de5095000,0x00007f4de5195000)]
+  0x00007f4dfc8ef800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=386, stack(0x00007f4de5195000,0x00007f4de5295000)]
+  0x00007f4da8172800 JavaThread "Skin Download Thread #1" [_thread_in_native, id=385, stack(0x00007f4de58bb000,0x00007f4de59bb000)]
+  0x00007f4dfc8d6800 JavaThread "Skin Download Thread #0" [_thread_blocked, id=378, stack(0x00007f4de681c000,0x00007f4de691c000)]
+  0x00007f4dfc827000 JavaThread "EaglerXBungee: Close Inactive" [_thread_blocked, id=371, stack(0x00007f4de709e000,0x00007f4de719e000)]
+  0x00007f4dfc49d000 JavaThread "Log4j2-TF-1-AsyncLogger[AsyncContext@70dea4e]-1" daemon [_thread_blocked, id=351, stack(0x00007f4de739e000,0x00007f4de749e000)]
+  0x00007f4dfc27d800 JavaThread "Reconnect Saver" [_thread_blocked, id=338, stack(0x00007f4de789e000,0x00007f4de799e000)]
+  0x00007f4dfc16a800 JavaThread "Service Thread" daemon [_thread_blocked, id=330, stack(0x00007f4de7bfe000,0x00007f4de7cfe000)]
+  0x00007f4dfc165800 JavaThread "C1 CompilerThread1" daemon [_thread_blocked, id=329, stack(0x00007f4de7cff000,0x00007f4de7dff000)]
+  0x00007f4dfc162800 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=328, stack(0x00007f4de7e00000,0x00007f4de7f00000)]
+  0x00007f4dfc15d800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=327, stack(0x00007f4de7f00000,0x00007f4de8000000)]
+  0x00007f4dfc12d000 JavaThread "Finalizer" daemon [_thread_blocked, id=326, stack(0x00007f4dec2f5000,0x00007f4dec3f5000)]
+  0x00007f4dfc128800 JavaThread "Reference Handler" daemon [_thread_blocked, id=325, stack(0x00007f4dec3f5000,0x00007f4dec4f5000)]
+  0x00007f4dfc00a000 JavaThread "main" [_thread_blocked, id=320, stack(0x00007f4e039fb000,0x00007f4e03afb000)]
+
+Other Threads:
+  0x00007f4dfc11e800 VMThread [stack: 0x00007f4dec4f6000,0x00007f4dec5f6000] [id=324]
+  0x00007f4dfc16d000 WatcherThread [stack: 0x00007f4de7afe000,0x00007f4de7bfe000] [id=331]
+
+VM state:synchronizing (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00007f4dfc008a90] Threads_lock - owner thread: 0x00007f4dfc11e800
+[0x00007f4dfc008f10] AdapterHandlerLibrary_lock - owner thread: 0x00007f4d9000c800
+
+heap address: 0x00000000c0000000, size: 1024 MB, Compressed Oops mode: 32-bit
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x0000000100000000
+
+Heap:
